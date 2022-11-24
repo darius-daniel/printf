@@ -18,7 +18,7 @@ int _printf(const char *format, ...)
 			else
 				_putchar(*format), countChars++;
 		}
-		else if (state = 1)
+		else if (state == 1)
 		{
 			if (*format == '%')
 				_putchar('%'), countChars++;
